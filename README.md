@@ -1,9 +1,10 @@
 # Futures-Bot-Back-Tester
-Lets you test your strategy for Futures contracts.
+
+### Basic Description
+This set of code was what I used initially to test the strategy used in the Rascal PJ bot. The code can be reused by configuring some parameters for trading or by changing the trading pair. 
 
 
-One problem I have with many of the backtesting libs in Python is that they really only work for spot trading. I wanted to make a futures testing bot so that anyone can test their strategy for both Longs (profit when price goes up) and Shorts (profit when price goes down).
+### How To Use
 
-The code provided will show an example of how I used multiple for loops to run through a CSV file and compute my expected profits based on the strategy I implemented.
 
-The original strategy is removed but the logic, I believe, will be helpful.
+
